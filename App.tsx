@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, StyleSheet } from 'react-native';
-import { Welcome } from "./src/pages/Welcome";
+import { UserIdentification } from "./src/pages/UserIdentification";
 import AppLoading from "expo-app-loading";
 
 import {useFonts,
@@ -16,6 +16,6 @@ if(!fontsLoaded)
     return<AppLoading/>
 
   return (
-    <Welcome/>
+    <UserIdentification/>
   )
 }
