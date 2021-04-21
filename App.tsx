@@ -1,7 +1,9 @@
 import React from "react";
 import { Text, View, StyleSheet } from 'react-native';
-import { UserIdentification } from "./src/pages/UserIdentification";
+import Routes  from "./src/routes";
 import AppLoading from "expo-app-loading";
+
+
 
 import {useFonts,
         Jost_400Regular,
@@ -16,6 +18,6 @@ if(!fontsLoaded)
     return<AppLoading/>
 
   return (
-    <UserIdentification/>
+    <Routes/>
   )
 }
